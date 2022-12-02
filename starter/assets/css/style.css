@@ -1,0 +1,36 @@
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  header {
+    padding: 40px;
+    text-align: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 325px;
+  }
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 40px;
+    text-align: center;
+    margin-top: auto;
+  }
